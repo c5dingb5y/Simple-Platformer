@@ -110,12 +110,9 @@ void setGravity(vector<string> &map) {
 		}
 		if (move(map, gravity / (fps / 120.0), 2)) {
 			if (gravity >= 0) {
-				gravity = 0;
 				floating = false;
 			}
-			if (gravity <= 0) {
-				gravity = 0;
-			}
+			gravity = 0;
 		}
 	}
 }
@@ -129,6 +126,7 @@ void moveCharacter(vector<string> &map, double speed) {
 	if (state[SDL_SCANCODE_RIGHT]) {
 		move(map, speed, 1);
 	}
+
 	if (state[SDL_SCANCODE_UP]) {
 		if (floating == false && gravity == 0) {
 			gravity = -20;
@@ -140,21 +138,18 @@ void moveCharacter(vector<string> &map, double speed) {
 int main(int argc, char* args[]) {
 	// vector<string> map = loadMap("F:\\Scarlet\\Project\\Simple Platformer\\Simple Platformer\\Simple Platformer\\data\\testMap.t");
 	vector<string> map = loadMap("C:\\Users\\Vaelot\\Desktop\\vaelot\\Simple-Platformer\\data\\testMap.t");
+	int prvTime;
+	int tempFixer;
 
 	SDL_Init(SDL_INIT_EVERYTHING);
-
 	SDL_CreateWindowAndRenderer(1024, 768, SDL_WINDOW_RESIZABLE, &window, &renderer);
-
-	int prvTime = SDL_GetTicks();
 
 	while (true) {
 		prvTime = SDL_GetTicks();
 
 		SDL_Event event;
 		SDL_PollEvent(&event);
-		if (event.type == SDL_QUIT) {
-			break;
-		}
+		if (event.type == SDL_QUIT) { break; }
 
 		setGravity(map);
 		moveCharacter(map, deltaTime);
@@ -170,20 +165,16 @@ int main(int argc, char* args[]) {
 
 		SDL_RenderPresent(renderer);
 
-		int tempFixer = (SDL_GetTicks() - prvTime);
+		tempFixer = (SDL_GetTicks() - prvTime);
+
 		if ((1000 / fpsLimit) > tempFixer) {
 			SDL_Delay((1000 / fpsLimit) - tempFixer);
 		}
 
 		if ((1000 / fpsLimit) > tempFixer) {
 			deltaTime = SDL_GetTicks() - prvTime;
-		}
-		else {
-			deltaTime = 0;
-		}
-
-		if (deltaTime != 0) {
 			fps = 1000 / deltaTime;
 		}
+		else { deltaTime = 0; }
 	}
 }
