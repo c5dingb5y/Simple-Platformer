@@ -1,0 +1,25 @@
+﻿  Main.cpp
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(61,63): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(61,51): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(64,80): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(64,62): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(67,74): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(67,51): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(70,91): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(70,62): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(74,74): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(74,51): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(77,91): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(77,62): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(112,31): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(158,22): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(166,25): warning C4838: 'float'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(166,25): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(166,37): warning C4838: 'float'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Scarlet\Project\Simple Platformer\Simple Platformer\Simple Platformer\Main.cpp(166,37): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다.
+  1 of 228 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Simple Platformer.vcxproj -> F:\Scarlet\Project\Simple Platformer\Simple Platformer\x64\Release\Simple Platformer.exe
